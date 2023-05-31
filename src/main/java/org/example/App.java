@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-@MapperScan(basePackages = {"rg.example.mapper"})
 public class App 
 {
     public static void main( String[] args ){//将springboot应用启动

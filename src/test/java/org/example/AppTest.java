@@ -13,6 +13,10 @@ import java.util.Map;
  */
 public class AppTest 
 {
+    @Test
+    void contextLoads() {
+    }
+
     @Test(description = "用户名或密码错误")
     public void loginTest001() throws HttpRequestException {
         String baseurl = "http://localhost:8081/api/login?name=%s&pass=%s";

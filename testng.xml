@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="autotest" verbose="1">
+    <test name="allTestsInAPackage" preserve-order="true">
+        <classes>
+            <class name="org.example.AppTest"/>
+        </classes>
+    </test>
+<!--    <listeners>-->
+<!--        <listener class-name="com.clubfactory.zerotest.framework.listener.TestResultListener"/>-->
+<!--    </listeners>-->
+</suite>
+
